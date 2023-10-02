@@ -198,7 +198,19 @@ for(i=2 ; i<n ; i++)
 
 cout<<"Number is Prime";
 
+
 */
+
+for(int i=0;i<=15;i+=2)
+{
+    cout<<i<<" ";
+
+    if(i&1){
+        continue;
+    }
+
+    i++;
+}
 
 
 
