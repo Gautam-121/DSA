@@ -43,4 +43,18 @@ int main(){
     if(n&(n-1) == 0) return true;
 
     return false;
+
+
+    //Method-2
+      if(n<=0) return false;
+
+        int rem;
+
+        while(n>1)
+        {
+            rem = n%2;
+            if(rem) return false;
+            n/=2;
+        }
+        return true;
 }
